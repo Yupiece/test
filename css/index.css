@@ -1,0 +1,71 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img {
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#666;
+}
+/*Çå³ý¸¡¶¯*/
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+
+li{
+    float: left;
+    cursor: pointer;
+}
+.yk_left{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.yk_comment{
+    margin-left: 100px;
+}
+.yk_comment li{
+    font-size: 25px;
+    color: red;
+    margin-top: 5px;
+    padding: 0px 5px;
+}
+.yk_right{
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.yk_reason1,.yk_reason2{
+    margin-left: 95px;
+    width: 290px;
+    display: none;
+}
+.yk_reason1 li{
+    display: block;
+    padding: 0px 7px;
+    margin: 3px 5px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+.yk_reason2 li{
+    display: block;
+    padding: 0px 7px;
+    margin: 3px 5px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+
